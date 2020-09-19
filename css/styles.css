@@ -47,7 +47,6 @@ body {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
 }
 
 /* header */
@@ -96,12 +95,8 @@ nav {
   color: var(--text-accent);
 }
 
-.contact a {
-  color: var(--main-text);
-}
-
-.contact a:hover,
-.contact a:focus {
+.contact .link:hover,
+.contact .link:focus {
   color: var(--text-accent);
 }
 
@@ -144,8 +139,8 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address a:hover,
-.address a:focus {
+.address .link:hover,
+.address .link:focus {
   color: var(--text-accent);
 }
 .site-nav,
@@ -208,6 +203,10 @@ footer {
   background-color: #2196f3;
 }
 
+.hero .container {
+  padding-top: 200px;
+}
+
 /* advantages */
 .advantages {
   display: flex;
@@ -238,6 +237,10 @@ footer {
 .container .advantages {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.advantages li:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* works */
