@@ -69,6 +69,9 @@ nav {
 .site-nav {
   display: flex;
   margin-left: 93px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .site-nav .link {
@@ -267,6 +270,9 @@ nav {
 }
 
 /* staff list */
+.staff-section {
+  background-color: var(--grey-bg-color);
+}
 .staff > .section-title {
   margin-top: 0px;
   margin-bottom: 94px;
@@ -280,7 +286,6 @@ nav {
 .section > .staff {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--grey-bg-color);
 }
 
 .staff-list ul {
@@ -297,6 +302,11 @@ nav {
 .staff {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.staff-people > img {
+  width: 270px;
+  height: 260px;
 }
 
 /* footer */
@@ -316,7 +326,11 @@ footer .logo {
   margin-bottom: 20px;
 }
 
-.address-list {
+footer .address {
+  padding-left: 0px;
+}
+
+.address-list:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -334,4 +348,12 @@ footer .logo {
 
 .address .address-end {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-bottom .address {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-size: 14px;
+  line-height: 24px;
 }
