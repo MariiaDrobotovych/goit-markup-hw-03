@@ -242,6 +242,12 @@ nav {
 }
 
 /* works */
+
+.section .works {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .works .section-title {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -270,6 +276,11 @@ nav {
 }
 
 /* staff list */
+.section .staff {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .staff-section {
   background-color: var(--grey-bg-color);
 }
